@@ -1,0 +1,261 @@
+/* ============================== */
+/* ! Layout for desktop version   */
+/* ============================== */
+
+	body {
+	font-family:'MyWebFont' ;
+	color:#33334c;
+	}
+@font-face{ 
+	font-family: 'MyWebFont';
+	src: url('../fonts/lmsans10-regular-webfont.eot');
+	src: url('../fonts/lmsans10-regular-webfont.eot?iefix') format('eot'),
+	     url('../fonts/lmsans10-regular-webfont.woff') format('woff'),
+	     url('../fonts/lmsans10-regular-webfont.ttf') format('truetype'),
+	     url('../fonts/lmsans10-regular-webfont.svg#webfont') format('svg');
+}
+
+h1
+{
+font-style:italic;
+line-height:1.5em;
+}
+
+h3
+{
+text-align:center;
+font-style:italic;
+}
+
+
+.mainhead{
+text-align:center;
+padding:5px 0 5px 0;
+}
+
+
+.logo{
+float:left;
+padding:5px;
+vertical-align:middle;
+font-size:3em;
+color:#0044b4;
+}
+.logo2{
+color:#05beec;
+font-style:italic;
+}
+
+
+.head{
+height:130px;
+font-weight:bold;
+text-align:center;
+margin:5px 0 px 0;
+}
+
+.navbar{
+width:100%;
+height:65px;
+background:#0044b4;
+}
+
+.navbar1{
+width:100%;
+height:35px;
+background:#0044b4;
+}
+
+.buttons{
+list-style-type:none;
+margin:0;
+}
+
+.navlink{
+float:right;
+margin:10px 5px 10px 5px;
+display:inline;
+text-decoration:none;
+list-style-type:none;
+border-radius:10px;
+color:#00296C;
+font-size:14pt;
+font-weight:bold;
+padding:10px 5px 10px 5px;
+text-align:center;
+width:95px;
+background: -webkit-linear-gradient(white,#99b4e1); 
+background: -o-linear-gradient(white,#99b4e1); 
+background: -moz-linear-gradient(white,#99b4e1); 
+background: linear-gradient(white,#99b4e1); /* Standard syntax */
+}	
+	
+/*emers 3box*/
+.threeboxpage{
+width:100%;
+}
+
+.borderinside{
+margin:0 auto;
+border-radius:20px;
+border:10px solid #14662e;
+width:90%;
+height:400px;
+padding-left:10px;
+padding-top:10px;
+}
+
+
+footer{
+text-align:center;
+color:white;
+background-color:#0044b4;
+height:65px;
+padding-top:5px;
+}	
+
+.twoboxpage{
+width:100%;
+}
+
+.colorbox{
+border-radius:20px;
+border:10px solid #14662e;
+width:70%;
+height:500px;
+padding:10px;
+margin:0 auto;
+}
+
+.usbpic{
+margin:0 auto;
+border-radius:20px;
+}
+
+.frame{
+width:80px;
+height:30px;
+}
+
+/*form css*/
+form{
+background: -webkit-linear-gradient(white,#99b4e1); 
+background: -o-linear-gradient(white,#99b4e1); 
+background: -moz-linear-gradient(white,#99b4e1); 
+background: linear-gradient(white,#99b4e1); /* Standard syntax */
+height:495px;
+width:100%;
+font-size:18px;
+font-style:italic;
+line-height:28px;
+font-weight:bold;
+text-decoration:none;
+}
+
+input{
+width:75%;
+display:block;
+border:1px solid #14662e;
+height:30px;
+cursor:pointer;
+}
+
+#fdback{
+cursor:pointer;
+width:75%;
+height:70px;
+border:1px solid #14662e;
+display:block;
+}
+
+input.button{
+width:25%;
+float:right;
+background:#05beec;
+color:#33334c;
+font-weight:bold;
+height:30px;
+border:1px solid #14662e;
+margin:5px;
+}
+
+input.button:hover{
+background:#fff;
+color:#05beec;
+font-size:120%;
+cursor:pointer;
+}
+
+iframe{
+ width:99%;
+ height:499px;
+}
+
+.list1
+{
+text-decoration:none;
+margin-left:1.5em;
+}
+
+/* ============================= */
+/* ! Layout for mobile version   */
+/* ============================= */
+
+@media handheld, only screen and (max-width: 767px) {
+
+	body {
+		
+	}
+h1,h3{
+font-size:100%;
+line-height:1.5em;
+}
+
+.navbar{
+width:100%;
+height:auto;
+background:#0044b4;
+}
+.navlink{
+width:130px;
+height:27px;
+text-decoration:none;
+list-style-type:none;
+border-radius:10px;
+border:3px solid #0044b4;
+color:#0044b4;
+padding:5px;
+background: -webkit-linear-gradient(white,#99b4e1); 
+background: -o-linear-gradient(white,#99b4e1); 
+background: -moz-linear-gradient(white,#99b4e1); 
+background: linear-gradient(white,#99b4e1); /* Standard syntax */
+}	
+form{
+font-size:12pt;
+}
+input.button{
+float:left;
+clear:both;
+width:100px;
+height:20px;
+}
+.list1{
+margin-left:1em;
+}
+.borderinside{
+height:auto;
+}
+
+}
+
+
+/* ========================================== */
+/* ! Provide higher res assets for iPhone 4   */
+/* ========================================== */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+
+
+
+
+}
